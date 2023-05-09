@@ -1,0 +1,44 @@
+.pricing-container {
+    background-color: white;
+    margin-top: 9rem;
+    height: 40rem;
+    width: 55rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    font-family: 'Manrope';
+}
+
+.offer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .pageviews {
+        margin-left: 5rem;
+        margin-top: 4rem;
+        font-size: 1.5rem;
+        font-weight: 800;
+        letter-spacing: 0.13rem;
+        color: gray;
+    }
+
+    .payment {
+        font-size: 4rem;
+        font-weight: 800;
+        margin-top: 3.5rem;
+        margin-right: 5rem;
+        padding: 0;
+
+        p {
+            margin: 0;
+        }
+
+        span{
+            font-size: 1.6rem;
+            color: gray;
+            position: relative;
+            bottom: 1rem;
+            left: 0.5rem;
+        }
+    }
+}
