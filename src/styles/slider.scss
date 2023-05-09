@@ -1,0 +1,64 @@
+.pricing-container {
+    background-color: white;
+    margin-top: 10rem;
+    height: 40rem;
+    width: 55rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+$trackHeight: 10px;
+$thumbHeight: 40px;
+$slider-bg: hsl(174, 86%, 45%);
+$fill-lower: hsl(174, 77%, 80%);
+$fill-upper: hsl(224, 65%, 95%);
+
+
+
+.slider {
+    display: flex;
+    justify-content: center;
+    --lower-percent: 30%;
+    --upper-percent: 70%;
+    
+    @mixin reset() {
+        -webkit-appearance: none;
+        appearance: none;
+        background: transparent;
+    }
+    
+    @mixin track() {
+        background: linear-gradient(to right, $fill-lower var(--lower-percent), $fill-upper var(--lower-percent) 100%);
+        height: $trackHeight;
+        border-radius: 15px;
+    }
+
+    input[type="range"] {
+        @include reset();
+        width: 400px;
+        
+        outline: none;
+
+        &::-webkit-slider-runnable-track {
+            @include track();
+        }
+
+        &::-moz-range-track {
+            @include track();
+        }
+        
+        &::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: url('/icon-slider.svg');
+            background-position: 50% 50%;
+            background-color: $slider-bg;
+            background-repeat: no-repeat;
+            box-shadow: 0 20px 40px $slider-bg;
+            margin-top: calc($trackHeight/2) - calc($thumbHeight/2);   
+        }
+    }
+}

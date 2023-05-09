@@ -1,6 +1,6 @@
 import Pricing from "./components/Pricing";
-import bg from '../public/images/bg-pattern.svg';
-import circles from '../public/images/pattern-circles.svg';
+import bg from '/bg-pattern.svg';
+import circles from '/pattern-circles.svg';
 
 function App() {
 

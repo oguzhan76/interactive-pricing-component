@@ -28,9 +28,9 @@ html {
     height: 100%;
     position: absolute;
     
-    .bg-pattern {
+    // .bg-pattern {
 
-    }
+    // }
 
     .bg-circles {
         position: absolute;
@@ -55,12 +55,4 @@ html {
     }
 }
 
-.pricing-container {
-    background-color: white;
-    margin-top: 10rem;
-    height: 25rem;
-    width: 50rem;
-    border: 2px solid black;
-    border-radius: 1rem;
-
-} /// git yap
+@import './slider.scss';
