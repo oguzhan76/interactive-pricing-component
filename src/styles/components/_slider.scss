@@ -46,7 +46,7 @@ $fill-upper: hsl(224, 65%, 95%);
         }
     }
 
-    input[type="range"] {
+    input[type=range] {
         @include reset();
         width: $trackWidth;
         
