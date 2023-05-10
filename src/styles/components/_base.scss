@@ -1,3 +1,6 @@
+$text: hsl(225, 20%, 60%);
+$text-dark: hsl(227, 35%, 25%);
+
 html {
     background-color: rgb(181, 232, 235);
     font-size: 62.5%;
@@ -41,12 +44,16 @@ html {
     text-align: center;
     
     h1 {
+        color: $text-dark;
         margin: 0;
         margin-bottom: 1.3rem;
     }
     
     p{
+        color: $text;
         margin: 0;
         font-size: 1.5rem;
     }
 }
+
+

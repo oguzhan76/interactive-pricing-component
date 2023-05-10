@@ -1,0 +1,43 @@
+.pricing-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4rem;
+    border-top: 1px solid rgb(104, 103, 103, 0.2);
+
+    .perks-section {
+        color: $text;
+        font-size: 1.2rem;
+        margin-top: 2rem;
+        margin-left: 5rem;
+
+        p {
+            margin: 0;
+            margin-top: 1rem;
+        }
+
+        span {
+            margin-right: 1rem;
+        }
+    }
+
+    .button-section {
+        
+        button {
+            background-color: hsl(227, 35%, 25%);
+            color:  hsl(226, 100%, 87%);
+            font-weight: 600;
+            border: none;
+            border-radius: 5rem;
+            width: 17rem;
+            height: 4rem;
+            margin-top: 4.6rem;
+            margin-right: 4.5rem;
+            cursor: pointer;
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}

@@ -2,8 +2,7 @@
     background-color: white;
     margin-top: 9rem;
     height: 40rem;
-    width: 55rem;
-    border: 2px solid black;
+    width: 54rem;
     border-radius: 1rem;
     font-family: 'Manrope';
 }
@@ -11,23 +10,31 @@
 .offer-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 
     .pageviews {
-        margin-left: 5rem;
-        margin-top: 4rem;
         font-size: 1.5rem;
         font-weight: 800;
         letter-spacing: 0.13rem;
-        color: gray;
+        color: $text;
+        margin-top: 4rem;
+        padding-right: 3rem;
+        width: 50%;
+        flex-grow: 50;
+        align-items: center;
+        display: flex;
+        justify-content: center;
     }
 
     .payment {
         font-size: 4rem;
         font-weight: 800;
         margin-top: 3.5rem;
-        margin-right: 5rem;
-        padding: 0;
+        margin-right: 2rem;
+        width: 50%;
+        flex-grow: 50;
+        align-items: center;
+        display: flex;
+        justify-content: center;
 
         p {
             margin: 0;
@@ -35,9 +42,9 @@
 
         span{
             font-size: 1.6rem;
-            color: gray;
+            color: $text;
             position: relative;
-            bottom: 1rem;
+            bottom: 0.8rem;
             left: 0.5rem;
         }
     }

@@ -1,0 +1,22 @@
+{
+    "1":  {
+        "pageviews": "10K",
+        "payment": 8
+    },
+    "2":  {
+        "pageviews": "50K",
+        "payment": 12
+    },
+    "3":  {
+        "pageviews": "100K",
+        "payment": 16
+    },
+    "4":  {
+        "pageviews": "500K",
+        "payment": 24
+    },
+    "5":  {
+        "pageviews": "1M",
+        "payment": 36
+    }
+}
